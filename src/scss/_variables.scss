@@ -1,0 +1,61 @@
+$color-primary: #f3e5ab;
+$color-primary-light: #fff7d4;
+$color-primary-dark: #cdbb72;
+
+$color-secondary-light: #fff7d4;
+$color-secondary-dark: #cdbb72;
+
+$color-tertiary-light: #fff7d4;
+$color-tertiary-dark: #cdbb72;
+
+// $color-primary: #2f3f73;
+// $color-primary-light: #2f3f73;
+// $color-primary-dark: #172556;
+
+// $color-secondary-light: #2f3f73;
+// $color-secondary-dark: #172556;
+
+// $color-tertiary-light: #2f3f73;
+// $color-tertiary-dark: #172556;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-black: black;
+$color-white: white;
+
+$color-green-1: #0be10b;
+
+$default-font-size: 1rem;
+
+// $color-green-1: #20bf6b;
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    } //1200px
+  }
+
+  @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) {
+      @content;
+    } //1800px
+  }
+}
