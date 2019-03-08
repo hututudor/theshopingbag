@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "name": "Mere",
+      "desc": "Mere bune bio si naturale",
+      "count": 100,
+      "price": "1,00",
+      "img": "/img/poza-1.jpeg",
+      "featured": true
+    },
+    {
+      "name": "Banane",
+      "desc": "Banane din Africa. Foarte naturale.",
+      "count": 50,
+      "price": "2,00",
+      "img": "/img/poza-1.jpeg",
+      "featured": true
+    },
+    {
+      "name": "Portocale",
+      "desc": "Portocale din Grecia",
+      "count": 70,
+      "price": "1,07",
+      "img": "/img/poza-1.jpeg",
+      "featured": true
+    },
+    {
+      "name": "Pere",
+      "desc": "Pere romanesti",
+      "count": 40,
+      "price": "1,40",
+      "img": "/img/poza-1.jpeg",
+      "featured": true
+    }
+  ]
+}
