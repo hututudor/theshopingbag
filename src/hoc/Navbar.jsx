@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Menu, Container, Dropdown, Icon } from 'semantic-ui-react';
-import { NavLink, Link } from 'react-router-dom';
-import { connect } from 'react-redux';
+import { Menu, Container } from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
 
 class Navbar extends Component {
   logout = () => {
@@ -29,6 +28,12 @@ class Navbar extends Component {
           </Menu.Item>
           <Menu.Item as={NavLink} exact to="/products">
             Produse
+          </Menu.Item>
+          <Menu.Item as={NavLink} exact to="/about">
+            Despre noi
+          </Menu.Item>
+          <Menu.Item as={NavLink} exact to="/contact">
+            Contact
           </Menu.Item>
         </Container>
       </Menu>

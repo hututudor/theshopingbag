@@ -145,3 +145,21 @@
     text-align: left !important;
   }
 }
+
+.contr {
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 2rem;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}
+
+.contr + footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+}
+

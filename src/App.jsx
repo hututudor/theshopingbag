@@ -5,6 +5,8 @@ import Cart from './Cart';
 import Product from './Product';
 import Navbar from './hoc/Navbar';
 import Products from './Products';
+import About from './About';
+import Contact from './Contact';
 import Footer from './hoc/Footer';
 
 class App extends Component {
@@ -14,6 +16,8 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/about" exact component={About} />
+          <Route path="/contact" exact component={Contact} />
           <Route path="/products" exact component={Products} />
           <Route path="/product/:id" exact component={Product} />
           <Route path="/cart" exact component={Cart} />

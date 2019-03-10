@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { products } from './prod.json';
-import { Container, Button, Icon } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { addProd } from './actions';
 import { connect } from 'react-redux';
 
