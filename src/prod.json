@@ -2,34 +2,82 @@
   "products": [
     {
       "name": "Mere",
-      "desc": "Mere bune bio si naturale",
+      "desc": "Mere Stark Ecologice",
       "count": 100,
-      "price": "1,00",
-      "img": "/img/poza-1.jpeg",
+      "price": "2,50",
+      "img": "/img/mere.jpg",
       "featured": true
     },
     {
       "name": "Banane",
-      "desc": "Banane din Africa. Foarte naturale.",
+      "desc": "Banane din Africa-calitate superioară.",
       "count": 50,
       "price": "2,00",
-      "img": "/img/poza-1.jpeg",
+      "img": "/img/download.jpg",
       "featured": true
     },
     {
       "name": "Portocale",
-      "desc": "Portocale din Grecia",
+      "desc": "Portocale bio, 1 kg",
       "count": 70,
-      "price": "1,07",
-      "img": "/img/poza-1.jpeg",
+      "price": "2,00",
+      "img": "/img/portocale.jpg",
       "featured": true
     },
     {
       "name": "Pere",
-      "desc": "Pere romanesti",
+      "desc": "Pere românești",
       "count": 40,
       "price": "1,40",
-      "img": "/img/poza-1.jpeg",
+      "img": "/img/pere.jpg",
+      "featured": true
+    },
+    {
+      "name": "Struguri",
+      "desc": "Struguri 500g ",
+      "count": 40,
+      "price": "12,00",
+      "img": "/img/struguri.jpg",
+      "featured": true
+    },
+    {
+      "name": "Mere Golden ",
+      "desc": "Mere Golden bio caserolă 4 bucăți ",
+      "count": 40,
+      "price": "9,99",
+      "img": "/img/meregolden.jpg",
+      "featured": true
+    },
+    {
+      "name": "Roșii",
+      "desc": "Roșii bio ",
+      "count": 40,
+      "price": "7,99",
+      "img": "/img/Roșii.jpg",
+      "featured": true
+    },
+    {
+      "name": "Lămâi",
+      "desc": "Lămâi Grecia ",
+      "count": 40,
+      "price": "1,84",
+      "img": "/img/lamai.jpg",
+      "featured": true
+    },
+    {
+      "name": "Salată verde",
+      "desc": "Salată verde bio ",
+      "count": 40,
+      "price": "5,49",
+      "img": "/img/Salatăverde.jpg",
+      "featured": true
+    },
+    {
+      "name": "Ciocolată Milka",
+      "desc": "Ciocolată cu biscuiți Milka ",
+      "count": 40,
+      "price": "1,84",
+      "img": "/img/Milka.jpg",
       "featured": true
     }
   ]
