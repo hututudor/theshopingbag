@@ -13,7 +13,14 @@
   }
 }
 
+.logo-img {
+  text-align: center; 
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
 .header-img {
+  overflow: hidden;
   background: linear-gradient(
       to bottom right,
       rgba($color-primary-dark, 0.7),
@@ -47,6 +54,7 @@
 }
 
 .featured {
+  overflow: hidden;
   padding: 15rem 0;
   background-color: color-grey-light-2;
   margin-top: -5rem;

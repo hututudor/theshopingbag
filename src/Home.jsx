@@ -26,6 +26,9 @@ class Home extends Component {
           <div className="button">
             <Link to="/products">Vezi toate produsele</Link>
           </div>
+          <div className="logo-img">
+            <img src="/img/logo.jpg" />
+          </div>
         </div>
       </React.Fragment>
     );
