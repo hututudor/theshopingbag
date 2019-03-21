@@ -14,7 +14,7 @@
       "count": 50,
       "price": "2,00",
       "img": "/img/download.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "name": "Portocale",
@@ -22,7 +22,7 @@
       "count": 70,
       "price": "2,00",
       "img": "/img/portocale.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "name": "Pere",
@@ -38,7 +38,7 @@
       "count": 40,
       "price": "12,00",
       "img": "/img/struguri.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "name": "Mere Golden ",
@@ -46,7 +46,7 @@
       "count": 40,
       "price": "9,99",
       "img": "/img/meregolden.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "name": "Roșii",
@@ -54,7 +54,7 @@
       "count": 40,
       "price": "7,99",
       "img": "/img/Roșii.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "name": "Lămâi",
@@ -70,7 +70,7 @@
       "count": 40,
       "price": "5,49",
       "img": "/img/Salatăverde.jpg",
-      "featured": true
+      "featured": false
     },
     {
       "name": "Ciocolată Milka",
@@ -78,7 +78,7 @@
       "count": 40,
       "price": "1,84",
       "img": "/img/Milka.jpg",
-      "featured": true
+      "featured": false
     }
   ]
 }

@@ -98,6 +98,29 @@
   font-size: 1.6rem;
 }
 
+.prodcontainer {
+  min-height: 60vh;
+
+  .input {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: left;
+    border: 1px solid rgba(black, 0.8);
+    padding: 0 1rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
 .products {
   padding: 10rem 0;
 
